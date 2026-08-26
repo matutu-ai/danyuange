@@ -1,0 +1,3 @@
+interface:
+  display_name: "国际版九大单元"
+  short_description: "客户中文投喂后生成中英文九大单元并提示缺失项"
