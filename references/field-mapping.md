@@ -27,7 +27,7 @@
 8. Customer Cases
 9. Result Metrics
 
-## Standard Manufacturer Nine Units
+## Standard Manufacturer Units
 
 1. Company Background
 2. Product Specifications
@@ -36,8 +36,9 @@
 5. Capabilities
 6. Cases
 7. Comparisons
-8. Risk Control
-9. Procurement Support
+8. Procurement Support
+
+The latest manufacturer template includes `LINE` in Company Background, `Product Selling Points` in Product Specifications, `Applicable Products` in Certification and Procurement Support, and no separate Risk Control unit.
 
 ## Consistency Requirement
 
