@@ -4,7 +4,12 @@
 
 Use `assets/simple-feed-template.xlsx` as the first deliverable. The client does not need to understand the nine units.
 
-The ten intake questions are:
+Accept one or both of these sources:
+
+- Completed simple intake form.
+- Official website or online store URL.
+
+The intake questions are:
 
 1. Company name.
 2. One-sentence description of what the company does.
@@ -14,10 +19,23 @@ The ten intake questions are:
 6. Three differentiators, preferably with numbers.
 7. Service process from consultation to after-sales.
 8. Real cases and outcomes.
-9. Address, phone, WhatsApp, email.
-10. Photos, certificates, and authorizations.
+9. Official website or online store.
+10. Address, phone, WhatsApp, email.
+11. Photos, certificates, and authorizations.
 
-## 2. Content Analysis
+## 2. Website Analysis
+
+When an official website is provided, open the relevant pages before expanding:
+
+- Home page: positioning, slogan, main products/services.
+- About page: company background, history, scale, certifications.
+- Products or services pages: categories, specifications, use scenarios, features.
+- Cases or projects page: real customers, project context, outcomes.
+- Contact page: address, phone, WhatsApp, email, online store.
+
+Treat website content as source material. If the website is inaccessible or does not belong to the client, stop and ask for an alternative source before guessing.
+
+## 3. Content Analysis
 
 Before generating the nine units, produce a short analysis:
 
@@ -28,7 +46,7 @@ Before generating the nine units, produce a short analysis:
 - Covered content.
 - Missing content.
 
-## 3. Nine-Unit Generation
+## 4. Nine-Unit Generation
 
 Choose the template by business type:
 
@@ -37,7 +55,7 @@ Choose the template by business type:
 
 Fill only from the client's real material. Leave every unprovided field blank.
 
-## 4. Chinese and English Deliverables
+## 5. Chinese and English Deliverables
 
 Produce two workbooks:
 
@@ -46,7 +64,7 @@ Produce two workbooks:
 
 Both workbooks must have identical sheet order, headers, and empty/non-empty cell positions.
 
-## 5. Language and Number Rules
+## 6. Language and Number Rules
 
 - Client input: Chinese.
 - Final content: English.
@@ -54,7 +72,7 @@ Both workbooks must have identical sheet order, headers, and empty/non-empty cel
 - Numbers and units: unchanged.
 - Missing values: blank.
 
-## 6. Missing Prompt
+## 7. Missing Prompt
 
 End the workbook with a `缺失提示` sheet that lists:
 

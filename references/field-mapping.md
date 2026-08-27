@@ -12,6 +12,7 @@
 | Differentiators with numbers | Service Capabilities, Solutions, Result Metrics |
 | Service process | Methodology, Service Process |
 | Cases and outcomes | Customer Cases, Result Metrics |
+| Official website / online store | Company Background, conversion information |
 | Address/phone/WhatsApp | Company Background, conversion information |
 | Photos/certificates/authorizations | Company Background, trust signals |
 
