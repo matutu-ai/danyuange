@@ -28,11 +28,14 @@ This skill turns a simple client intake form into the full nine content units us
 - Missing content: leave blank. Do not invent facts, cases, testimonials, or metrics.
 - Website content is client-provided source material only when it is accessible and belongs to the client. Do not use unrelated third-party claims.
 - Chinese and English versions must have the same structure and the same empty/non-empty cells.
+- Final export must strictly match one of the two standard templates. Do not add, remove, rename, or reorder sheets, columns, or rows. Do not add a missing-prompt sheet inside the final workbook.
+- Missing and supplemental information belongs in a separate intermediate channel, not inside the final nine-unit workbook. When a Feishu integration is available, create a Feishu doc with the missing-field checklist and use its link for client follow-up.
 
 ## References
 
 - Read [references/workflow.md](references/workflow.md) for the complete runnable process.
 - Read [references/field-mapping.md](references/field-mapping.md) when mapping simple intake answers to the nine-unit fields.
+- Read [references/format-constraints.md](references/format-constraints.md) before producing any final export.
 
 ## Assets
 

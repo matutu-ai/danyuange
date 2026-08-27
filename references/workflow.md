@@ -74,10 +74,24 @@ Both workbooks must have identical sheet order, headers, and empty/non-empty cel
 
 ## 7. Missing Prompt
 
-End the workbook with a `缺失提示` sheet that lists:
+Do not add a missing-prompt sheet inside the final nine-unit workbook. Instead, produce a separate missing-information table or Feishu doc that lists:
 
 - The missing unit or general material.
 - The missing field.
 - What the client needs to provide.
 
 Keep prompting only for real missing information. Do not create substitute data.
+
+When a Feishu integration is available, create a Feishu doc for the missing checklist and give the client its link. When Feishu is not available, use a separate local spreadsheet.
+
+## 8. Strict Final Export
+
+Before delivery, verify the final export against `assets/service-provider-nine-unit-template.xlsx` or `assets/manufacturer-nine-unit-template.xlsx`:
+
+- The correct template must be selected by business type.
+- Sheet names, sheet order, column names, and column order must match exactly.
+- No extra sheets, no extra columns, no extra rows, and no removed fields.
+- No `缺失提示` sheet inside the final workbook.
+- Missing values stay blank.
+
+See [format-constraints.md](format-constraints.md) for the complete immutable-format checklist.
