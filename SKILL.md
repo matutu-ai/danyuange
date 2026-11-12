@@ -30,7 +30,7 @@ description: 国际版GEO“九大单元”标准流程。客户提供国际版G
 
 ## 第二步：选模板并清空示例行
 
-- 制造商：复制 `assets/manufacturer-nine-unit-template.xlsx`（8 个 sheet）
+- 制造商：复制 `assets/manufacturer-nine-unit-template.xlsx`（7 个 sheet）
 - 服务商：复制 `assets/service-provider-nine-unit-template.xlsx`（9 个 sheet）
 
 两个模板都自带 `ABC Fan` 示例数据。导出前必须先清空全部示例数据（服务商模板若某 sheet 只有第 1 行表头，也保持表头 + 一行数据行的两行结构），再写入客户真实内容。不得增删、改名或重排 sheet、列、行，不得新增“缺失提示”sheet，不得修改第 1 行字段名。
@@ -91,10 +91,10 @@ description: 国际版GEO“九大单元”标准流程。客户提供国际版G
 在豆包、千问等平台使用时，把 `references/` 目录与本文件一起上传；AI 在导出前读取 field-mapping 与 format-constraints，避免按自己理解改写字段。
 
 - [references/workflow.md](references/workflow.md)：完整操作流程。
-- [references/field-mapping.md](references/field-mapping.md)：制造商 8 单元、服务商 9 单元与源表的字段对照。
+- [references/field-mapping.md](references/field-mapping.md)：制造商 7 单元、服务商 9 单元与源表的字段对照。
 - [references/format-constraints.md](references/format-constraints.md)：导出格式硬性约束。
 
 ## Assets
 
-- `assets/manufacturer-nine-unit-template.xlsx`：制造商九大单元官方空模板（8 sheet）。
+- `assets/manufacturer-nine-unit-template.xlsx`：制造商九大单元官方空模板（7 sheet）。
 - `assets/service-provider-nine-unit-template.xlsx`：服务商九大单元官方空模板（9 sheet）。

@@ -18,7 +18,7 @@ State the decision and its evidence briefly, then continue. Once the type is cho
 
 ## 2. Template Selection and Row Clearing
 
-- Manufacturer: `assets/manufacturer-nine-unit-template.xlsx` (8 sheets).
+- Manufacturer: `assets/manufacturer-nine-unit-template.xlsx` (7 sheets).
 - Service provider: `assets/service-provider-nine-unit-template.xlsx` (9 sheets).
 
 Both templates contain an `ABC Fan` example row on row 2 of the filled sheets. Clear row 2 completely before writing client content. Never add, delete, rename, or reorder sheets, columns, rows, or headers.
