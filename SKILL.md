@@ -5,7 +5,7 @@ description: 国际版GEO“九大单元”标准流程。客户提供国际版G
 
 # 国际版GEO九大单元（跨平台通用版）
 
-把本文件与 `assets/manufacturer-nine-unit-template.xlsx`、`assets/service-provider-nine-unit-template.xlsx` 一起交给任意 AI 平台使用。客户资料以 `国际版GEO下单表9-1.xlsx` 类文件为准；AI 只需要在收到资料后执行以下固定流程，不需要额外猜测或自行扩展内容。
+把本文件与 `assets/manufacturer-nine-unit-template.xlsx`、`assets/service-provider-nine-unit-template.xlsx` 一起交给任意 AI 平台使用。若交付目标是 RocDesk 内容单元导入，另使用 `assets/rocdesk-nine-unit-qa-template.xlsx`。客户资料以 `国际版GEO下单表9-1.xlsx` 类文件为准；AI 只需要在收到资料后执行以下固定流程，不需要额外猜测或自行扩展内容。
 
 ### 豆包 / 千问 / 其他平台用法
 
@@ -86,6 +86,12 @@ description: 国际版GEO“九大单元”标准流程。客户提供国际版G
 5. 缺失清单是否独立于九大单元工作簿。
 6. 是否只填写了客户资料中真实存在的内容。
 
+## RocDesk 问答导入版本
+
+当用户明确要求导入 RocDesk 的九大内容单元时，采用 `assets/rocdesk-nine-unit-qa-template.xlsx`。该文件与 RocDesk 页面“Excel 导入”提供的范例一致，包含制造商 01–07、知识与FAQ 08、风控与采购支持 09，另带一页“填写说明”。此版本与上文的制造商 7 sheet 导出模板是两种交付格式，按导入目标选择，不把服务商 9 sheet 当作 RocDesk 09 单元格式。
+
+导入文件只保留目标页面需要的 sheet；清除 `ABC Fan`、RFID、采购条款等范例行，只写客户可核实的事实。08/09 每行对应一条问答，按“内容类型、客户问题、相同问题的其他问法、核心回答、核心字段1–3、选填字段1–2”填写。交付上传前删除“填写说明”sheet。客户没有提供的答案或证据留空，并放入单独补充清单。详细要求见 [references/rocdesk-qa-import.md](references/rocdesk-qa-import.md)。
+
 ## References
 
 在豆包、千问等平台使用时，把 `references/` 目录与本文件一起上传；AI 在导出前读取 field-mapping 与 format-constraints，避免按自己理解改写字段。
@@ -93,8 +99,10 @@ description: 国际版GEO“九大单元”标准流程。客户提供国际版G
 - [references/workflow.md](references/workflow.md)：完整操作流程。
 - [references/field-mapping.md](references/field-mapping.md)：制造商 7 单元、服务商 9 单元与源表的字段对照。
 - [references/format-constraints.md](references/format-constraints.md)：导出格式硬性约束。
+- [references/rocdesk-qa-import.md](references/rocdesk-qa-import.md)：RocDesk 九单元问答导入格式与清理规则。
 
 ## Assets
 
 - `assets/manufacturer-nine-unit-template.xlsx`：制造商九大单元官方空模板（7 sheet）。
 - `assets/service-provider-nine-unit-template.xlsx`：服务商九大单元官方空模板（9 sheet）。
+- `assets/rocdesk-nine-unit-qa-template.xlsx`：RocDesk 官方问答导入范例（01–09 加填写说明，交付前清除示例并删除说明页）。

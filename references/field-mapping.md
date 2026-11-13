@@ -74,3 +74,7 @@ The English original and Chinese analysis workbooks must contain the same inform
 - Same row-1 field titles.
 - Same filled/blank cell positions.
 - Same numbers, percentages, dimensions, years, models, dates, URLs, emails, and phone numbers.
+
+## RocDesk Q&A Import Fields
+
+The RocDesk import variant adds `知识与FAQ单元` and `风控与采购支持单元`. Both use the same nine columns: 内容类型 / 客户问题 / 相同问题的其他问法 / 核心回答 / 核心字段1 / 核心字段2 / 核心字段3 / 选填字段1 / 选填字段2. The meaning of the last five fields depends on 内容类型. See [rocdesk-qa-import.md](rocdesk-qa-import.md) and the source template's `填写说明` before removing that instruction sheet for upload.

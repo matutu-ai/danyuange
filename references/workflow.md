@@ -54,3 +54,7 @@ Inside the nine-unit workbooks, leave missing fields blank. Do not write `N/A`, 
 4. Check that English content is copied, not rewritten, and Chinese content preserves all numbers and identifiers.
 5. Confirm the missing checklist is not inside either nine-unit workbook.
 6. Confirm only real client content is present.
+
+## 7. RocDesk 问答导入目标
+
+用户要求导入 RocDesk 时，改用 `assets/rocdesk-nine-unit-qa-template.xlsx`，按 [rocdesk-qa-import.md](rocdesk-qa-import.md) 清理示例并填写 08/09 问答。原制造商 7 sheet 和服务商 9 sheet 模板仍用于各自标准交付。不得把服务商的 9 个 sheet 误当 RocDesk 01–09 单元。

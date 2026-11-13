@@ -6,7 +6,7 @@ Before exporting, classify the client as manufacturer or service provider using 
 
 ## Hard Rules
 
-The final exported workbook must strictly match one of these two templates:
+For the standard manufacturer/service-provider export, the final workbook must strictly match one of these two templates:
 
 - `assets/service-provider-nine-unit-template.xlsx`
 - `assets/manufacturer-nine-unit-template.xlsx`
@@ -80,3 +80,7 @@ Both versions must keep numbers, percentages, dimensions, models, series, certif
 7. Confirm every missing cell is blank.
 8. Confirm the missing checklist is outside the final workbook.
 9. Compare the English original and Chinese analysis versions for identical structure and equivalent content.
+
+## RocDesk Import Variant
+
+When the target is RocDesk's nine content units, use `assets/rocdesk-nine-unit-qa-template.xlsx` and follow [rocdesk-qa-import.md](rocdesk-qa-import.md). Its 01–09 sheets differ from the standard manufacturer 7-sheet and service-provider 9-sheet exports. Remove the `填写说明` sheet and all sample data before uploading. Keep exact sheet names and headers. Add one verified question-answer record per row in sheets 08 and 09; do not invent answers or evidence.
